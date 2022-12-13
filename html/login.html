@@ -30,7 +30,7 @@
 
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
-                <a href="forget.html">Bạn đã quên rồi sao?</a>
+                <a id="forget">Bạn đã quên rồi sao?</a>
                 <button><a href="/html/main.html">Đăng Nhập</a></button>
             </form>
         </div>
@@ -62,6 +62,11 @@
             signInButton.addEventListener('click', () => {
                 container.classList.remove('right-panel-active');
             });
+            document.getElementById("forget").addEventListener("click", myFunction);
+
+            function myFunction() {
+                alert("Thì kệ bạn, hehe");
+            }
         </script>
     </div>
 </body>
