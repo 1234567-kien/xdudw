@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop bán ạc</title>
+    <link rel="shortcut icon" type="image/png"
+        href="https://img.freepik.com/premium-vector/icon-gamepad-play-arcade-video-game-gamer-custom-designcartoon-illustration_185390-205.jpg?w=2000" />
     <link rel="stylesheet" href="/fontend/style.css">
     <link rel="stylesheet" href="/fontend/styleacc.css">
 </head>
+
 <body>
     <div class="header">
         <a class="logo" href="index.html">
-            <img  src="/image/logo.png" alt="">
+            <img src="/image/logo.png" alt="">
         </a>
         <div class="hdmenu">
             <ul class="menu">
@@ -19,18 +23,18 @@
                     <a href="main.html">Trang chủ</a>
                 </li>
                 <li>
-                    <a >Nạp tiền</a>
+                    <a>Nạp tiền</a>
                 </li>
                 <li>
-                    <a >Lịch sử</a>
+                    <a>Lịch sử</a>
                 </li>
                 <li>
                     <a href="login.html">Đăng nhập</a>
                 </li>
             </ul>
         </div>
-       
-        
+
+
     </div>
 
     <div class="top">
@@ -64,20 +68,20 @@
                             <span>Nguyễn Văn E</span>
                             <p>500,000 <sup>đ</sup></p>
                         </li>
-                </ul>
+                    </ul>
                 </div>
             </div>
             <img class="banner" src="/image/banner.png" alt="">
-           
+
         </div>
-       
-    </div> 
+
+    </div>
 
     <div class="container">
         <div class="sllbox">
             <div id="list-acc">
                 <div class="main">
-                    <p>TRANG CHỦ >  <span>Acc Liên Minh #1111</span></p>
+                    <p>TRANG CHỦ > <span>Acc Liên Minh #1111</span></p>
                 </div>
                 <div class="nick-info">
                     <div class="info-left">
@@ -89,7 +93,7 @@
                         <div class="bt-tt">
                             <button class="js-buy-acc">Mua Tài Khoản Này Với Giá 1,110,110 đ</button>
                         </div>
-                        
+
                     </div>
                 </div>
                 <ul class="nick-tab">
@@ -152,10 +156,10 @@
                         </p>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
-       
+
     </div>
     <div class="modal js-modal">
         <div class="modal-container js-modal-container">
@@ -166,34 +170,34 @@
                 <i class="modal-heading-icon ti-layout-placeholder"></i>
                 Tickets
             </header>
-            
+
 
             <div class="modal-body">
                 <label for="quantity" class="modal-label">
                     <i class="ti-shopping-cart"></i>
                     Tickets, 100$ per person
                 </label>
-               <input id="quantity" type="text" class="modal-input" placeholder="How many?">
+                <input id="quantity" type="text" class="modal-input" placeholder="How many?">
 
-               <label for="tk-email" class="modal-label">
-                <i class="ti-user"></i>
-                Send to
-            </label>
-           <input id="tk-email" type="email" class="modal-input" placeholder="Enter email...?">
+                <label for="tk-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="tk-email" type="email" class="modal-input" placeholder="Enter email...?">
 
-           <button id="buy-tickets">
-               PAY <i class="ti-check"></i>
-           </button>
+                <button id="buy-tickets">
+                    PAY <i class="ti-check"></i>
+                </button>
             </div>
             <footer class="modal-footer">
                 <p class="modal-help">Need <a href="">help?</a></p>
             </footer>
         </div>
-        
+
     </div>
     <script>
         const buyBtns = document.querySelectorAll('.js-buy-acc')
-        const modal= document.querySelector('.js-modal')
+        const modal = document.querySelector('.js-modal')
         const modalContainer = document.querySelector('.js-modal-container')
         const modalClose = document.querySelector('.js-modal-close')
         /*ham hien thi modal mua ve*/
@@ -215,4 +219,3 @@
             event.stopPropagation()
         })
     </script>
-    

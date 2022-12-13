@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shop bán ạc</title>
+    <link rel="shortcut icon" type="image/png"
+        href="https://img.freepik.com/premium-vector/icon-gamepad-play-arcade-video-game-gamer-custom-designcartoon-illustration_185390-205.jpg?w=2000" />
     <link rel="stylesheet" href="/fontend/style2.css">
 </head>
+
 <body>
     <h2>Trang Đăng Nhập / Đăng Ký</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="#">
                 <h1>Tạo Tài Khoản</h1>
-                
+
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
@@ -23,7 +27,7 @@
         <div class="form-container sign-in-container">
             <form action="#">
                 <h1>Đăng nhập</h1>
-                
+
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
                 <a href="forget.html">Bạn đã quên rồi sao?</a>
@@ -40,9 +44,9 @@
                 <div class="overlay-panel overlay-right">
                     <h1>Hello, Friend!</h1>
                     <p>Nhập thông tin của bạn và bạn sẽ có tất cả</p>
-                    
-                        <button class="ghost" id="signUp">Đăng Ký</button>
-                 
+
+                    <button class="ghost" id="signUp">Đăng Ký</button>
+
                 </div>
             </div>
         </div>
@@ -50,15 +54,16 @@
             const signUpButton = document.getElementById('signUp');
             const signInButton = document.getElementById('signIn');
             const container = document.getElementById('container');
-    
+
             signUpButton.addEventListener('click', () => {
                 container.classList.add('right-panel-active');
             });
-    
+
             signInButton.addEventListener('click', () => {
                 container.classList.remove('right-panel-active');
             });
         </script>
     </div>
 </body>
+
 </html>
