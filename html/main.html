@@ -38,39 +38,66 @@
 
     <div class="top">
         <div class="container">
-            <div class="topnaptien">
-                <div class="top-nap">
-                    <p class="napthe">TOP NẠP THẺ THÁNG</p>
-                    <ul class="rank-nap">
-                        <li>
-                            <i>1</i>
-                            <span>Nguyễn Văn A</span>
-                            <p>1,520,000 <sup>đ</sup></p>
-                        </li>
-                        <li>
-                            <i>2</i>
-                            <span>Nguyễn Văn B</span>
-                            <p>1,410,000 <sup>đ</sup></p>
-                        </li>
-                        <li>
-                            <i>3</i>
-                            <span>Nguyễn Văn C</span>
-                            <p>500,000 <sup>đ</sup></p>
-                        </li>
-                        <li>
-                            <i>4</i>
-                            <span>Nguyễn Văn D</span>
-                            <p>500,000 <sup>đ</sup></p>
-                        </li>
-                        <li>
-                            <i>5</i>
-                            <span>Nguyễn Văn E</span>
-                            <p>500,000 <sup>đ</sup></p>
-                        </li>
-                    </ul>
+            <div class="slideshow">
+                <div class="topnaptien">
+                    <div class="top-nap">
+                        <p class="napthe">TOP NẠP THẺ THÁNG</p>
+                        <ul class="rank-nap">
+                            <li>
+                                <i>1</i>
+                                <span>Nguyễn Văn A</span>
+                                <p>1,520,000 <sup>đ</sup></p>
+                            </li>
+                            <li>
+                                <i>2</i>
+                                <span>Nguyễn Văn B</span>
+                                <p>1,410,000 <sup>đ</sup></p>
+                            </li>
+                            <li>
+                                <i>3</i>
+                                <span>Nguyễn Văn C</span>
+                                <p>500,000 <sup>đ</sup></p>
+                            </li>
+                            <li>
+                                <i>4</i>
+                                <span>Nguyễn Văn D</span>
+                                <p>500,000 <sup>đ</sup></p>
+                            </li>
+                            <li>
+                                <i>5</i>
+                                <span>Nguyễn Văn E</span>
+                                <p>500,000 <sup>đ</sup></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="slide">
+                    <div class="w3-content w3-section" >
+                        <img class="mySlides" src="/image/uytin.png" style="width:800px; height:395px">
+                        <img class="mySlides" src="/image/banner.png" style="width:100%; height:395px">
+                        <img class="mySlides" src="/image/meme-gau-truc.jpg" style="width:100%; height:395px">
+                      </div>
+                      
+                      <script>
+                      var myIndex = 0;
+                      carousel();
+                      
+                      function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                          x[i].style.display = "none";  
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}    
+                        x[myIndex-1].style.display = "block";  
+                        setTimeout(carousel, 3000); // Change image every 2 seconds
+                      }
+                      </script>
                 </div>
             </div>
-            <img class="banner" src="/image/banner.png" alt="">
+           
             
 
         </div>

@@ -68,7 +68,7 @@ body {
     height: 484px;
     padding: 40px 0;
     min-height: 400px;
-
+    /* display: flex; */
 }
 
 .topnaptien {
@@ -141,11 +141,15 @@ body {
     background: #FCBF55;
 }
 
-.banner {
-    width: calc(100% - 30% - 24px);
+.slideshow{
+    display: flex;
+}
+.slide{
+    width: 70%;
     border: 5px solid black;
     height: 400px;
-
+    background-color: #30343c;
+    
 }
 
 /* /top */
@@ -402,7 +406,7 @@ body {
     text-align: center;
     font-size: 20px;
     background: url(/image/bgbtn.png);
-
+    text-decoration: none;
 }
 
 .listPage {
