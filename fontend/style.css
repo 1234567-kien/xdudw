@@ -10,10 +10,9 @@
     background-image: url('/image/bghd.jpg');
 
 }
-
 .logo img {
-    padding-left: 150px;
-    padding-top: 13px;
+    padding-left: 200px;
+    height: 70px;
 }
 
 .hdmenu {
